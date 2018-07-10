@@ -15,7 +15,7 @@ How the GC domain space is doing at best practices and federal requirements.
 
 This repository is using [snyk](https://snyk.io/org/cds-snc) to scan our dependencies for vulnerabilities.  
 Unfortunately Synk lacks the ability to detect the dependencies listed in the `setup.py` file.
-To get around this we are have the dependencies synced between the `setup.py` and `requirements.txt` (which snyk can scan) files.  
+To get around this we have the dependencies synced between the `setup.py` and `requirements.txt` (which snyk can scan) files.  
 If you are developing this and add an additional dependency, make sure to add it to both locations
 
 ## Development Setup
